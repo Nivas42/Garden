@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item:hover{
+    color: green
+}
+.herosection{
+    background-color: #dafbe0;
+    margin-top: 40px;
+}
+.herosection button{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.herosection button:hover{
+    background-color: white;
+    color: black;
+}
+.herosection img:hover{
+    transform: scale(0.9);
+    transition: 2s
+}
+
+.quote{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tree{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    cursor: default;
+}
+.tree:hover{
+    background-color:#dafbe0;
+    color: black;
+    border: 1px solid #dafbe0;
+    transform: scale(0.9);
+    transition: 600ms;
+}
+.tree img{
+    width: 50px;
+    height: 50px;
+}
+.tree h3{
+    text-align: center;
+}
+.tree p{
+    font-size: 18px;
+    text-align: center;
+}
+.shipping{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    cursor: default;
+}
+.shipping img{
+    width: 50px;
+    height: 50px;
+}
+.shipping:hover{
+    background-color:#dafbe0;
+    color: black;
+    border: 2px solid #dafbe0;
+    transform: scale(0.9);
+    transition: 600ms;
+}
+.shipping h3{
+    text-align: center;
+}
+.shipping p{
+    font-size: 18px;
+    text-align: center;
+}
+.call{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    cursor: default
+}
+.call img{
+    width: 50px;
+    height: 50px;
+}
+.call h3{
+    text-align: center;
+}
+.call p{
+    font-size: 18px;
+    text-align: center;
+}
+.call:hover{
+    background-color:#dafbe0;
+    color: black;
+    border: 2px solid #dafbe0;
+    transform: scale(0.9);
+    transition: 600ms;
+}
+.products{
+    background-color: #dafbe0;
+    text-align: center;
+}
+.products img:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+.bestseller img:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+.feed{
+    background-color: #dafbe0;
+}
+
+.girl {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.girl:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+.news{
+    text-align: center;
+}
+footer{
+    background-color: #dafbe0;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
